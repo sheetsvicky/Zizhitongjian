@@ -12,11 +12,11 @@ Outstanding personalities in a semantic analysis of Zizhitongjian
 
 Example: 
 
-温与秦丞相雄等战于白鹿原，温兵不利 ==>
+温与秦丞相雄等战于白鹿原，温兵不利 (original document)
 
-'温', '与', '秦丞相', '雄', '等', '战', '于', '白鹿原', '，', '温', '兵', '不利' ==>
+'温', '与', '秦丞相', '雄', '等', '战', '于', '白鹿原', '，', '温', '兵', '不利' (segmentation)
 
-'桓温', '秦丞相', '雄', '战', '白鹿原', '桓温', '兵', '不利'
+'桓温', '秦丞相', '雄', '战', '白鹿原', '桓温', '兵', '不利' (remove symbols and stop words, unify names '温' ==> '桓温')
 
 2 Word2vec analysis (https://en.wikipedia.org/wiki/Word2vec), neural networks that reconstruct words to vector in high-dimensional spaces.
 
